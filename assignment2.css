@@ -1,0 +1,58 @@
+.style_table
+{
+  align:center;
+  color:black;
+  background-color:yellow;
+  border:2px light black;
+  margin-left:20px;
+  margin-right:20px;
+  padding-left:25px;
+  padding-right:25px;
+  width: 35px;
+  height:10px;
+  border-width:thin;
+  font-size:13px;
+  font-family:arial;
+}
+
+.style_table_data
+{
+  align:center;
+  color:black;
+  background-color:pink;
+  border:2px light black;
+  margin-left:25px;
+  margin-right:25px;
+  padding-left:40px;
+  padding-right:40px;
+  width: 35px;
+  height:10px;
+  border-width:thin;
+  font-size:12px;
+  font-family:arial;
+}
+
+.style_border_text
+{
+  border-style:solid;
+  border-color:red;
+  margin:5,10,10,5;
+}
+
+.style_hotpink
+{
+  font-family:arial;
+  color:hotpink;
+}
+
+.style_pink
+{
+  font-family:Courier;
+  color:pink;
+}
+
+.style_lightpink
+{
+  font-family:Corsiva;
+  color:lightpink;
+}
