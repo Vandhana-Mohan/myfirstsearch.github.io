@@ -1,0 +1,44 @@
+
+* {
+  box-sizing: border-box;
+}
+
+.style_top_header_home
+{
+  width: 100%;
+  height:10%;
+  border-bottom-style:solid;
+  border-color: grey;
+  border-width:thin;
+  padding-bottom: 12%;
+}
+
+.style_top_header
+{
+  width: 100%;
+  border-bottom-style:solid;
+  border-color: grey;
+  border-width:thin;
+  padding-bottom: 0.1%;
+}
+
+.style_info_th
+{
+  color:black;
+  background-color:lightgreen;
+  padding-bottom: 2px;
+  white-space:nowrap;
+}
+.style_td_Contact
+{
+ width: 160px;
+ text-align: center;
+ padding: 5px;
+}
+.style_form_box
+{
+  border:2px;
+  margin:40px;
+  padding-left: 100px;
+
+}
