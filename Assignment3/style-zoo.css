@@ -1,0 +1,156 @@
+.base{
+  background-color: lightgreen;
+  width:100%;
+  height:600px;
+}
+
+.clockimage{
+  background-color: lightgrey;
+  width:40%;
+  height:600px;
+  margin-left: 25%;
+  padding: 1% 5% 1.7% 5%;
+  /* border-radius: 50%; to make frame circular*/
+  position: relative;
+}
+
+.hourhand{
+  width:20%;
+  height:100px;
+  position: absolute;
+  top:41%;
+  left:50%;
+  animation-name: hour_animation;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  /* transform-origin: bottom; */
+  /* animation-timing-function: linear; */
+  animation-fill-mode: forwards;
+  animation-delay: 3s;
+}
+
+ @keyframes hour_animation {
+   0% {top:41%;left:50%;transform:rotate(0deg);}
+   20% {top:43%;left:51%;transform:rotate(5deg); }
+   40% {top:45%;left:52%;transform:rotate(10deg); }
+   60% {top:47%;left:53%;transform:rotate(15deg); }
+   80% {top:49%;left:54%;transform:rotate(20deg); }
+   90% {top:51%;left:55%;transform:rotate(25deg); }
+   100% {top:51%;left:55%;transform:rotate(30deg); }
+}
+
+@keyframes min_animation {
+  0% {top:11.8%;left:45.9%;transform:rotate(0deg);}
+  20% {top:23.8%;left:49%;transform:rotate(360deg); }
+  40% {top:33.8%;left:53%;transform:rotate(360deg); }
+  60% {top:43.8%;left:59%;transform:rotate(360deg); }
+  80% {top:53.8%;left:64%;transform:rotate(360deg); }
+  100% {top:11.8%;left:45.9%;transform:rotate(360deg);}
+}
+
+.minutehand{
+  width:205px;
+  height:135px;
+  position: absolute;
+  top:11.8%;
+  left:45.9%;
+  transform: rotate(270deg);
+  animation-name: min_animation;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  transform-origin: bottom;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+  animation-delay: 3s;
+}
+
+.sample{
+  border: 2px solid red;
+  background-color: lightpink;
+}
+
+h1{
+  background-color: lightpink;
+  text-align:center;
+  width:16%
+  margin:20px auto;
+    /* border: 2px solid purple; */
+}
+
+a{
+  font-size: 18px;
+  font-family: monospace;
+  color: blue;
+  /* border:2px solid purple; */
+
+}
+
+p{
+  /* background-color: lightblue; */
+  text-align:justify;
+  font-size: 14px;
+  font-family: monospace;
+  margin-left: 35px;
+  /* color: green; */
+  /* border:2px solid purple; */
+}
+
+.img_animal{
+  width: 30%;
+  height:40%;
+  float:left;
+  margin-left: 1.1%;
+  /* margin-right: 5px; */
+  margin-top: 40px;
+  padding: 12px,20px,10px,2px;
+  /* border: 2px solid red;*/
+  /* margin-bottom: 20px; */
+}
+
+.act2_img {
+  width: 75%;
+  height:600px;
+  position: relative;
+  margin-left:15%;
+  /* padding: 12px,20px,10px,2px; */
+  /* border: 2px solid red; */
+}
+
+
+/* .base > a, .base > button{
+  width: 55%;
+  height:60%;
+} */
+
+img{
+   width:100%;
+   height:100%;
+  /* margin-left: 12px; */
+  /* float:left; */
+}
+
+button{
+  color: blue;
+  text-align: center;
+  align-items: center;
+  margin:auto;
+  display:block;
+  font-size: 18px;
+  font-family: monospace;
+  /* background-color: black; */
+  width: 36%;
+  height: 18%;
+}
+
+.act2_block > a, .act2_block > p{
+  color: white;
+}
+.act2_block{
+bottom:100px;
+left:44%;
+position: absolute;
+border: 2px solid red;
+width:44%;
+height: 140px;
+background-color: #1111111;
+}
