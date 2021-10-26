@@ -1,0 +1,29 @@
+body{
+  border:2px solid blue;
+}
+
+.background {
+  background: url("Images/background_img.jpg") repeat;
+}
+
+.transbox {
+  margin: 2%;
+  background-color: #ffffff;
+  border: 1px solid blue;
+  opacity: 0.9;
+}
+
+.transbox > h1{
+  text-align: center;
+  font-weight: bold;
+  color: #000000;
+}
+
+form{
+  color: blue;
+  font: 18px bold;
+}
+
+input{
+  font: 19px bold;
+}
