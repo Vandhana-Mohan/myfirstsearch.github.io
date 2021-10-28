@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>My Secret Fun Number Game</title>
+    <link rel="stylesheet" href="my-game.css">
+  </head>
+  <body>
+    <div class="top-logo">
+      <img src="Images/Icons/logo.png" alt="Game-Logo" title="Secret Number Game">
+    </div>
+    <div class="title-heading">
+      <h1><i>Secret Number Game</i></h1>
+    </div>
+    <!-- Creating slide-text animation -->
+    <div class="main-block">
+      <div class="animate-slide">
+        <div class="slide-one"><p><b>Simple Rules, Easy Game, All Ages... Connect with us in Social Media !!!</b></p></div>
+        <div class="slide-two">
+          <a href="https://www.facebook.com/" target="_blank" style="text-decoration: none;"> <img src="Images/Icons/facebook.png" alt="Facebook" title="Connect with our Collection in Facebook" style="width:55px; height:55px; margin-left:20px; margin-right:30px;"> </a>
+          <a href="https://www.instagram.com/?hl=en" target="_blank" style="text-decoration: none;"> <img src="Images/Icons/instagram.png" alt="Instagram" title="Connect with our Collection in Instagram" style="width:55px; height:55px; margin-left:20px; margin-right:30px;"> </a>
+          <a href="https://www.youtube.com/" target="_blank" style="text-decoration: none;"> <img src="Images/Icons/youtube.png" alt="YouTube" title="Connect with our Collection in YouTube" style="width:55px; height:55px; margin-left:20px; margin-right:30px;"> </a>
+          <a href="https://twitter.com/" target="_blank" style="text-decoration: none;"> <img src="Images/Icons/twitter.png" alt="Twitter" title="Connect with our Collection in Twitter" style="width:55px; height:55px; margin-left:20px; margin-right:30px;"> </a>
+          <a href="https://www.pinterest.com/" target="_blank" style="text-decoration: none;"> <img src="Images/Icons/pin.png" alt="Pinterest" title="Connect with our Collection in Pinterest" style="width:55px; height:55px; margin-left:20px; margin-right:30px;"> </a>
+        </div>
+        <div class="slide-three"><p><i>Free Game!!! Find my secret number and win the level...</i></p></div>
+      </div>
+    </div>
+
+    <div class="score-zone">
+      <label for="secretNum"><b>Secret is??</b></label>
+      <input type="text" id="secretNum" name="secret Number" readonly><br><br><br>
+      <label for="chances"><b># Chances:</b></label>
+      <input type="text" id="guessTally" name="chance" readonly><br><br><br>
+      <label for="high-score"><b>High Score:</b></label>
+      <input type="text" id="highScore" name="high-score" readonly><br><br><br>
+    </div>
+
+    <div class="game-zone">
+          <p class="msginfo"><label for="guessField" id="infoTxt"></label></p>
+          <center><input type="number" id="guessField" class="guessField" min="1" max="100" required></center><br>
+          <input type="submit" value="Check!" id="guessSubmit" class="guessSubmit button">
+          <input type="submit" value="Reset" class="button" id="resetGame">
+          <br>
+          <p id="pastGuesses" class="guessinfo"></p>
+    </div>
+
+    <div class = "cover_img">
+      <img id="img_style" src="Images/Photos/img1.jpg" alt="welcome">
+    </div>
+
+    <div class="help-zone">
+        <br><br>
+        <a  class="buttonMain" href="#rules" title="Click to learn!! How to Play"> How to Play</a><br><br><br><br>
+        <a  class="buttonMain" href="#scores" title="Click to learn!! How to Score"> How to Score</a>
+        <br><br><br>
+    </div>
+
+
+    <div id="rules" class="modalWindow">
+      <div class="set-msg-box">
+        <h3 style="border-bottom:solid royalblue; padding-left: 5%;">How to Play !!!</h3>
+        <ul>
+          <li>Type or select a number between 1 - 100</li>
+          <li>Click Check to find if its correct.</li>
+          <li>If your guess is too low or too high, you'll get a hint.</li>
+          <li>You have 10 attempts to find the number.</li>
+          <li>Dont forget - Keep Smiling &#128525;</li>
+        </ul>
+        <a href="#" title="close" class="close">X</a>
+      </div>
+    </div>
+    <div id="scores" class="modalWindow">
+      <div class="set-msg-box">
+        <h3 style="border-bottom:solid royalblue; padding-left: 5%;">How to Score !!!</h3>
+        <ul>
+          <li>If you find the number in first attempt you win 10 points.</li>
+          <li>If you find in 2nd,3rd, 4th....8th, 9th attempt, you will win 9,8,7,..3,2 points &nbsp;&nbsp;&nbsp;&nbsp;</li>
+          <li>If you find in the last attempt you win 1 point.</li>
+          <li>If you dont find in 10 attempts, you will score 0 points</li>
+          <li>High Score records your highest score.</li>
+          <li>Best Wishes &#128151;</li>
+        </ul>
+        <a href="#" title="close" class="close">X</a>
+      </div>
+    </div>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <!-- Footer -->
+    <div style="border-top: 2px solid royalblue;">
+      <footer align = "center">&copy2021 Fun Game Project by Monique and Vandhana Mohan All Rights Reserved.</footer><br>
+      <footer align = "center">NOTE:  This webpage is a template to create a game website. All informations and materials used are for ONLY educational purposes.</footer>
+    </div>
+    <script src="my-game.js"></script>
+  </body>
+</html>
