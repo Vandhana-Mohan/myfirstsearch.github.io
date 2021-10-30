@@ -1,0 +1,71 @@
+body{
+  margin: 2%;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+form.search_bk input[type=text] {
+  padding: 5px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 70%;
+  background: white;
+  margin-left: 2%;
+}
+
+form.search_bk button {
+  float: left;
+  width: 15%;
+  padding: 5px;
+  background: white;
+  color: grey;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+
+form.search_bk button:hover {
+  background: black;
+}
+
+form.search_bk::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.buttonMain {
+  text-decoration: none;
+  color: grey;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  text-align: justify;
+  font : 16px "verdana", monospace;
+}
+
+.books-window{
+  height:580px;
+  margin-left:23%;
+  margin-right:10px;
+  margin-top: -400px;
+}
+
+.authors-window{
+  height:580px;
+  margin-left:23%;
+  margin-right:10px;
+  margin-top: 2%;
+}
+
+.style_books{
+  float: left;
+  margin-right: 3.1%;
+  width: 29.8%;
+  height: 60%;
+}
+
+/* background-image: url(); background-position: center; */
